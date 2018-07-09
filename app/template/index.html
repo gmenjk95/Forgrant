@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+	<title>Форгрант</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="" />
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap-grid.min.css" />
+	<link rel="stylesheet" type="text/css" href="./css/style.min.css" />
+</head>
+<body>
+
+							
+<!-- BEGIN BODY -->
+
+<div class="main-wrapper">
+
+<!-- BEGIN HEADER -->
+
+<header>	
+	<div class="container">
+		//= header.html
+	</div>
+</header>
+	
+<!-- HEADER EOF   -->
+
+<!-- BEGIN CONTENT -->
+
+	<main class="content">	
+		<div class="container">
+			<form action="#" class="box-form text-center" autocomplete="off">
+				<h1 class="form-title">Анкета</h1>
+				<div class="form-block form-block_info" id="info">
+					<div class="block-icon">
+						<img src="./img/icons/icon-form_1.png" alt="">
+					</div>
+					<h2 class="block-title">Личная информация</h2>
+					<div class="form-group form-group_fio">
+						<input type="text" class="form-control has-value" placeholder="ФИО" name="fio" value="Хорунжий Александр Евгеньевич">
+						<span class="form-group__hidden">ФИО</span>
+					</div>
+					<div class="form-group form-group_date">
+						<input type="text" class="form-control has-value" placeholder="Год рождения" name="date" id="date" value="1995" readonly>
+						<span class="form-group__hidden">Год рождения</span>
+						<div class="date-wrap">
+							<ul class="date-list">
+								<li class="date-list__item">2000</li>
+								<li class="date-list__item">1998</li>
+								<li class="date-list__item">1997</li>
+								<li class="date-list__item">1996</li>
+								<li class="date-list__item active">1995</li>
+								<li class="date-list__item">1994</li>
+								<li class="date-list__item">1993</li>
+								<li class="date-list__item">1992</li>
+								<li class="date-list__item">1991</li>
+								<li class="date-list__item">1990</li>
+								<li class="date-list__item">1989</li>
+							</ul>
+						</div>
+					</div>
+					<div class="form-group form-group_location">
+						<input type="text" class="form-control has-value" placeholder="Место проживания" name="location" value="Киев">
+						<span class="form-group__hidden">Место проживания</span>
+					</div>
+					<div class="form-group form-group_skype">
+						<input type="text" class="form-control has-value" placeholder="Skype" name="skype" value="gmenjk95@mail.ru">
+						<span class="form-group__hidden">Skype</span>
+					</div>
+					<div class="form-group form-group_email">
+						<input type="email" class="form-control has-value" placeholder="E-mail" name="email" value="alex.khorunzhii@gmail.com">
+						<span class="form-group__hidden">E-mail</span>
+					</div>
+				</div>
+				<div class="form-block form-block_experience" id="experience">
+					<div class="block-icon">
+						<img src="./img/icons/icon-form_2.png" alt="">
+					</div>
+					<h2 class="block-title">Расскажите о своем опыте</h2>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="form-check">
+								<span class="check-input">
+									<input type="checkbox" id="bem" name="bem" checked>
+									<span></span>
+								</span>
+								<label for="bem" class="form-check__title">БЭМ/OOCSS</label>
+							</div>
+							<div class="form-check">
+								<span class="check-input">
+									<input type="checkbox" id="stylus" name="stylus" checked>
+									<span></span>
+								</span>
+								<label for="stylus" class="form-check__title">Stylus/LESS/SASS</label>
+							</div>
+							<div class="form-check">
+								<span class="check-input">
+									<input type="checkbox" id="svg" name="svg">
+									<span></span>
+								</span>
+								<label for="svg" class="form-check__title">Работаю с SVG</label>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-check">
+								<span class="check-input">
+									<input type="checkbox" id="semantics" name="semantics" checked>
+									<span></span>
+								</span>
+								<label for="semantics" class="form-check__title">Верстаю семантично</label>
+							</div>
+							<div class="form-check">
+								<span class="check-input">
+									<input type="checkbox" id="es" name="es" checked>
+									<span></span>
+								</span>
+								<label for="es" class="form-check__title">ES2015/ES2016</label>
+							</div>
+							<div class="form-check">
+								<span class="check-input">
+									<input type="checkbox" id="gulp" name="gulp" checked>
+									<span></span>
+								</span>
+								<label for="gulp" class="form-check__title">Gulp/GRUNT</label>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-check">
+								<span class="check-input">
+									<input type="checkbox" id="webpack" name="webpack">
+									<span></span>
+								</span>
+								<label for="webpack" class="form-check__title">Webpack</label>
+							</div>
+							<div class="form-check">
+								<span class="check-input">
+									<input type="checkbox" id="jquery" name="jquery" checked>
+									<span></span>
+								</span>
+								<label for="jquery" class="form-check__title">jQuery</label>
+							</div>
+							<div class="form-check">
+								<span class="check-input">
+									<input type="checkbox" id="git" name="git" checked>
+									<span></span>
+								</span>
+								<label for="git" class="form-check__title">Ипользую Git</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="form-block form-block_about" id="about">
+					<div class="block-icon">
+						<img src="./img/icons/icon-form_3.png" alt="">
+					</div>
+					<h2 class="block-title">Расскажите о себе</h2>
+					<h3 class="block-subtitle">Напишите несколько предложений, чем привлекла наша вакансия и что вы ожидаете от работы у нас.</h3>
+					<div class="form-textarea">
+						<textarea name="about" id="" placeholder="Понравилась тем, что...">Вакансия мне понравилась тем, что данная компания является международной, следовательно будет много интересных проектов. Это мне поможет значительно улучшить свои навыки в области Web-разработки, к чему я в данный момент и стремлюсь.</textarea>
+					</div>
+				</div>
+				<div class="form-btn">
+					<button class="btn-primary">Готово</button>
+				</div>
+			</div>
+		</div>
+	</main>	
+			
+<!-- CONTENT EOF   -->	
+
+</div>			
+
+<!-- BODY EOF   -->
+	
+	<script src="./js/custom.min.js" defer=""></script>
+</body>
+</html>
